@@ -1,1 +1,6 @@
-// JavaScript to be added
+var buttonYellow = document.getElementById('button-yellow');
+
+buttonYellow.onclick = function() {
+    var email = window.prompt('Registrate')
+    alert('Gracias por registrarte ' + email)
+}
